@@ -1,14 +1,14 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "image": "mcr.microsoft.com/devcontainers/python",
     "hostRequirements": {
         "cpus": 1
     },
     "waitFor": "onCreateCommand",
-    "postCreateCommand": "sh .devcontainer/setup.sh",
+    "postCreateCommand": "pip install ocrd",
     "customizations": {
         "codespaces": {
             "openFiles": [
-                "README.md"
+                "notebooks/test.ipynb"
             ]
         },
         "vscode": {
