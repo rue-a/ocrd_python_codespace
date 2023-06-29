@@ -14,11 +14,11 @@
         "vscode": {
             "extensions": [
                 "ms-toolsai.jupyter",
-                "ms-python.python",
-                "mechatroner.rainbow-csv",
-                "streetsidesoftware.code-spell-checker"
+                "ms-python.python"
             ],
-            "settings": {}
+            "settings": {
+                "notebook.output.textLineLimit": 100
+            }
         }
     }
 }
