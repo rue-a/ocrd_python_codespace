@@ -4,7 +4,7 @@
         "cpus": 1
     },
     "waitFor": "onCreateCommand",
-    "postCreateCommand": "pip install ocrd",
+    "postCreateCommand": "sh .devcontainer/setup.sh",
     "customizations": {
         "codespaces": {
             "openFiles": [
