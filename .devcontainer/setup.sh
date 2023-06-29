@@ -6,3 +6,4 @@ sudo apt-get install -y libtesseract-dev libleptonica-dev tesseract-ocr
 sudo apt-get install -y tesseract-ocr-script-frak tesseract-ocr-script-latn tesseract-ocr-eng tesseract-ocr-deu
 pip install ocrd
 pip install ocrd_tesserocr
+pip freeze > requirements.txt
